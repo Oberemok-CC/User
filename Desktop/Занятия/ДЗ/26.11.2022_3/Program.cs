@@ -9,7 +9,8 @@ float[] Getarray(float[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = new Random().NextSingle() * 100;
+        array[i] = new Random().Next(-10000, 10000);
+        array[i] = array[i]/100;
     }
     return array;
 }
