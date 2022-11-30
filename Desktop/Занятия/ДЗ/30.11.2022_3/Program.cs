@@ -12,7 +12,7 @@ Console.Write("Введите кол-во столбцов ");
 int columns = Convert.ToInt32(Console.ReadLine());
 
 int[,] matrix = new int[rows, columns];
-double[] arr = new double [columns];
+double[] arr = new double [rows];
 for (int i = 0; i < matrix.GetLength(0); i++)
 {
     for (int j = 0; j < matrix.GetLength(1); j++)
